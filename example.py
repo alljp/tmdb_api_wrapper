@@ -19,3 +19,6 @@ for number, movie in enumerate(popular_movies['results'], start=1):
 
 person = People.info(123)
 print(person)
+
+person_movie_credits = People.movie_credits(123)
+print(person_movie_credits)
