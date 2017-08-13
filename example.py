@@ -1,8 +1,6 @@
 from __future__ import print_function
 from tmdb_wrapper import TV
 from tmdb_wrapper import Movie
-from tmdb_wrapper import Find
-
 popular = TV.popular()
 
 print("Popular TV shows")
