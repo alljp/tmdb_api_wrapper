@@ -22,3 +22,4 @@ session.params = {}
 session.params['api_key'] = API_KEY
 
 from .tv import TV
+from .movie import Movie
